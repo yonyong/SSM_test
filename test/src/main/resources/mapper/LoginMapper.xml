@@ -13,7 +13,7 @@
 
     <!--如果该用户没有错误登陆记录，表中没有他的数据，则向表中添加-->
     <insert id="insertUser">
-         INSERT INTO login(tel,time,count) VALUES (#{tel},#{sendValidateTime},{count})
+         INSERT INTO login(tel,time,count) VALUES (#{tel},#{sendValidateTime},#{count})
     </insert>
 
     <!--更新用户的错误登陆时间-->

@@ -86,7 +86,7 @@ public class UserController {
 //        Timestamp errorLoginTime=new Timestamp(date.getTime());
         Date errorLoginTime=new Date();
         if (rs_login==null){
-            loginService.insertUser(tel,errorLoginTime,-1);
+            loginService.insertUser(tel,errorLoginTime,0);
             //login表和user表没有设置关联，如果user表中存在该用户而login表中不存在，则将其添加进去。
             rs_login=loginService.queryUser(tel);
         }
