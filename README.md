@@ -9,6 +9,24 @@ https://github.com/yonyong/javaweb-project.git
 功能较为简单登录注册，进入主界面对信息增删改查
 
 
+/******************************************* 2018.12.12 修改 ********************************************/
+
+我将同一个项目使用分别三种形式各自写了一遍，功能简单但全部实现，各自实现的形式也根据其原理而不同。下面附上传送门：
+
+Servlet+jsp版本
+
+https://github.com/yonyong/javaweb-project.git
+
+SSM版本
+
+https://github.com/yonyong/SSM_test.git
+
+Springboot版本
+
+https://github.com/yonyong/Springboot_test.git
+
+事实证明，某种意义上，提升的最有效方式还是做项目。
+
 
 首页界面
 
